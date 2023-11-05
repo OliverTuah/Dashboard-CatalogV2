@@ -56,7 +56,7 @@ function Navbar({ stateComponent }) {
         color={'white'}
         boxShadow={'0px 4px 10px #4147D520'}
       >
-        <Box w={'83px'} h={'83px'} alignSelf="center">
+        <Box w={'64px'} alignSelf="center">
           <Image src="\Logo GKE.png" alt="Logo GKE" />
         </Box>
         <Flex
@@ -119,7 +119,7 @@ function Navbar({ stateComponent }) {
                 text="Report"
               />
             </Flex>
-            <Avatar bg="teal.500" size="md" />
+            <Avatar bg="teal.500" size="sm" />
           </ChakraProvider>
         </Flex>
       </Flex>
